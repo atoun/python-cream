@@ -21,7 +21,7 @@ from operator import attrgetter, itemgetter
 from subprocess import Popen
 from collections import defaultdict
 
-import gtk
+from gi.repository import Gtk as gtk
 import gobject
 
 KICK = re.compile('%[ifFuUck]')

@@ -16,7 +16,7 @@
 # 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 import os
-import gtk
+from gi.repository import Gtk as gtk
 from gpyconf.frontends.gtk import ConfigurationDialog
 from cream.gui import dialogs
 from cream.util import joindir

@@ -262,7 +262,7 @@ class Configuration(_Configuration):
         try:
             self.profiles.insert(position, profile)
         except ProfileExistsError:
-            import gtk
+            from gi.repository import Gtk as gtk
             dialog = gtk.MessageDialog(
                 parent=None,
                 flags=gtk.DIALOG_MODAL,

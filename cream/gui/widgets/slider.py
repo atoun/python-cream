@@ -16,7 +16,7 @@
 # 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 import gobject
-import gtk
+from gi.repository import Gtk as gtk
 import cream.gui
 
 class Slider(gtk.Viewport):

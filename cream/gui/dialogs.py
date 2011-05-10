@@ -33,7 +33,7 @@ True
 >>> InputDialog("Again").run()
 None # User didn't press 'OK' but 'CANCEL' or closed the dialog
 """
-import gtk
+from gi.repository import Gtk as gtk
 from cream.util import flatten
  
 GTK_RESPONSES = (
